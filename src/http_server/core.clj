@@ -22,4 +22,4 @@
 
 (defn -main []
   (let [port (Integer/parseInt (get (System/getenv) "PORT" "5000"))]
-    (jetty/run-jetty main-routes {:port 5000})))
+    (jetty/run-jetty main-routes {:port port})))
