@@ -1,5 +1,5 @@
 (ns lobos.config
-  (:use lobos.connectiviy))
+  (:use [lobos.connectivity]))
 
 (def db
   {:classname "org.postgresql.Driver"

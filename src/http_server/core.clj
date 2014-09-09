@@ -1,5 +1,5 @@
 (ns http-server.core
-  (:use compojure.core)
+  (:use [compojure.core])
   (:require
    [ring.adapter.jetty :as jetty]
    [clostache.parser :as clostache]
